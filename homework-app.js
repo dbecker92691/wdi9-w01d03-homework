@@ -11,13 +11,18 @@
 // }
 
 // //Excited Kitten
+// const randomCat = ['...human...why you taking pictures of me?...', '...the catnip made me do it...', '...why does the red dot always get away...'];
 
 // for(let k = 1; k < 21; k++) {
-//     console.log('Love me, pet me! HSSSSSSSSSSS!')
 //     if(k % 2 === 0){
-//         console.log('...human...why you taking pictures of me?...')
+//     let randomPhrase = Math.floor(Math.random() * randomCat); // math.floor rounds down an integer math.random selects a random number from 0 up to but on includeing
+//         console.log(randomCat[randomPhrase])
+//     } else {
+//         console.log('Love me, pet me! HSSSSS!')
 //     }
-// }
+// } 
+    
+
 
 // FizzBuzz
 
@@ -64,50 +69,49 @@
 // jim.push("Los Angeles, New York City, Minneapolis")
  
 
-// Yell at all the Ninja Turtles
+//Yell at all the Ninja Turtles
 
-// let ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+let ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 
-// for(let i = 0; i < ninjaTurtles.length; i++) {
-//     if()
-// }
+for(let i = 0; i < ninjaTurtles.length; i++) {
+    let upper = ninjaTurtles[i].toUpperCase();
+    console.log(upper);
+}
 
 
 
 // Return of the Closets
 
 
-const kristynsCloset = [
-    "left shoe",
-    "cowboy boots",
-    "right sock",
-    "GA hoodie",
-    "green pants",
-    "yellow knit hat",
-    "marshmallow peeps"
-  ];
+// const kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     "right sock",
+//     "GA hoodie",
+//     "green pants",
+//     "yellow knit hat",
+//     "marshmallow peeps"
+//   ];
   
-  // Thom's closet is more complicated. Check out this nested data structure!!
-  const thomsCloset = [
-    [
-      // These are Thom's shirts
-      "grey button-up",
-      "dark grey button-up",
-      "light blue button-up",
-      "blue button-up",
-    ],[
-      // These are Thom's pants
-      "grey jeans",
-      "jeans",
-      "PJs"
-    ],[
-      // Thom's accessories
-      "wool mittens",
-      "wool scarf",
-      "raybans"
-    ]
-  ];
+//   // Thom's closet is more complicated. Check out this nested data structure!!
+//   const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//       "grey button-up",
+//       "dark grey button-up",
+//       "light blue button-up",
+//       "blue button-up",
+//     ],[
+//       // These are Thom's pants
+//       "grey jeans",
+//       "jeans",
+//       "PJs"
+//     ],[
+//       // Thom's accessories
+//       "wool mittens",
+//       "wool scarf",
+//       "raybans"
+//     ]
+// //   ];
 
-  kristynsCloset.pop("left shoe");
-
-  console.log(kristynsCloset);
+  
