@@ -202,6 +202,7 @@
 // Find the sum of all the multiples of 3 or 5 below 1000.
 
 let multiples = [];
+let reducer = ()
 
 const getMultiples = () => {
 for(let i = 0; i < 1000; i++){
@@ -214,6 +215,6 @@ for(let i = 0; i < 1000; i++){
 
 }
 
-const sum = multiples.reduce((total, amount) => total + amount);
+const sum = multiples.reduce((multiples[0], multiples[1]) => multiples + amount);
 
 console.log(sum);
